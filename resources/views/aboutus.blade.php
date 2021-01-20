@@ -186,8 +186,8 @@
 				<div class="col-md-6 px-0 bg-ateam bg-ateam4" data-aos="fade-right" data-aos-duration="1000"></div>
 				<div class="col-md-6 px-0 bg-ateam bg-ateam5" data-aos="fade-left" data-aos-duration="1000"></div>
 				<div class="col-md-3 px-0 bg-ateam bg-ateam6" data-aos="fade-right" data-aos-duration="1000"></div>
-				<div class="col-md-3 px-0 bg-ateam bg-ateam7" data-aos="zoom-in-right" data-aos-duration="1000"></div>
-				<div class="col-md-3 px-0 bg-ateam bg-ateam8" data-aos="zoom-in-left" data-aos-duration="1000"></div>
+				<div class="col-md-3 px-0 bg-ateam bg-ateam7" data-aos="zoom-in" data-aos-duration="1000"></div>
+				<div class="col-md-3 px-0 bg-ateam bg-ateam8" data-aos="zoom-in" data-aos-duration="1000"></div>
 				<div class="col-md-3 px-0 bg-ateam bg-ateam9" data-aos="fade-left" data-aos-duration="1000"></div>
 			</div>
 		</div>	
