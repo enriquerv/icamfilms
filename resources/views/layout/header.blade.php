@@ -12,7 +12,7 @@
                <a class="nav-link {{ $active == 'index' ? 'active' : '' }}" aria-current="page" href="{{ env('APP_URL') }}/">HOME</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link {{ $active == 'aboutus' ? 'active' : '' }}" href="#">NOSOTROS</a>
+               <a class="nav-link {{ $active == 'aboutus' ? 'active' : '' }}" href="{{ env('APP_URL') }}/aboutus">NOSOTROS</a>
             </li>
             <li class="nav-item">
                <a class="nav-link {{ $active == 'products' ? 'active' : '' }}" href="#">SERVICIOS</a>
