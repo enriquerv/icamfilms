@@ -1,8 +1,129 @@
+/*GENERAL*/
+
+.first-section {
+	margin-top: 106.3px;
+}
+
+.vertical-center {
+	min-height: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.text-gray {
+	color: #e8e8e8;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+
 /*NAVBAR*/
 
-.nav-logo{
+.nav-logo {
 	width: 150px;
 }
+
 .bg-dark {
-    background-color: #000000!important;
+	background-color: #000000!important;
 }
+
+
+/*ABOUTUS*/
+
+.bg-aboutus {
+	min-height: 600px;
+	background-color: #000000;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.bg-team {
+	background-color: #eaeaea;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.bg-mision {
+	background-image: url(../images/aboutus/mision.jpg);
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg-values{
+	background-color: #ffffff;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.title-mision-vision {
+	background: #e8e6e6b8;
+}
+
+.bg-vision {
+	background-image: url(../images/aboutus/vision.png);
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fa-team {
+	font-size: 25px;
+	color: #313131;
+	margin-right: 10px;
+}
+
+.bg-ateam-div{
+	background-color: #000000;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.img-team { width: 200px; border-radius: 100%; }
+
+.img-valores{ width: 100px; height: 100px; }
+
+.img-ateam{ width: 100%; }
+
+.bg-ateam{
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+	border: 8px solid black;
+}
+
+.bg-ateam1{ background-image: url(../images/team/ateam1.jpg); }
+.bg-ateam2{ background-image: url(../images/team/ateam2.jpg); }
+.bg-ateam3{ background-image: url(../images/team/ateam3.jpg); }
+.bg-ateam4{ background-image: url(../images/team/ateam4.jpg); }
+.bg-ateam5{ background-image: url(../images/team/ateam5.jpg); }
+.bg-ateam6{ background-image: url(../images/team/ateam6.jpg); }
+.bg-ateam7{ background-image: url(../images/team/ateam1.jpg); }
+.bg-ateam8{ background-image: url(../images/team/ateam2.jpg); }
+.bg-ateam9{ background-image: url(../images/team/ateam3.jpg); }
+
+
+
+
+

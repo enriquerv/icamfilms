@@ -14,3 +14,4 @@
 // Route::get('/', function () { return view('welcome'); });
 
 Route::get('/', array('as' => 'index', 'uses' => 'FrontEndController@index'));
+Route::get('aboutus', array('as' => 'aboutus', 'uses' => 'FrontEndController@aboutus'));

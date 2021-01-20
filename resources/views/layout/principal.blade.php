@@ -11,6 +11,9 @@
         {{-- Bootstrap v5.0 CSS --}}
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
+        {{-- AOS Animate --}}
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
         {{-- Custom CSS file --}}
         <link rel="stylesheet" href="{{ env('APP_URL') }}/assets/css/custom.css">
 
@@ -42,9 +45,14 @@
         {{-- FontAwesome Script --}}
         <script src="https://kit.fontawesome.com/286437046b.js" crossorigin="anonymous"></script>
 
+        {{-- AOS Animate --}}
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
         {{-- Custom Script --}}
         <script src="{{ env('APP_URL') }}/assets/js/custom.js"></script>
         
+        <script> AOS.init(); </script>
+
         {{-- JS section for every blades --}}
         @yield('scripts')
     </body>

@@ -9,19 +9,19 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
          <ul class="navbar-nav ms-auto me-5">
             <li class="nav-item">
-               <a class="nav-link active" aria-current="page" href="#">HOME</a>
+               <a class="nav-link {{ $active == 'index' ? 'active' : '' }}" aria-current="page" href="{{ env('APP_URL') }}/">HOME</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link" href="#">NOSOTROS</a>
+               <a class="nav-link {{ $active == 'aboutus' ? 'active' : '' }}" href="{{ env('APP_URL') }}/aboutus">NOSOTROS</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link" href="#">SERVICIOS</a>
+               <a class="nav-link {{ $active == 'products' ? 'active' : '' }}" href="#">SERVICIOS</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link" href="#">PORTAFOLIO</a>
+               <a class="nav-link {{ $active == 'portfolio' ? 'active' : '' }}" href="#">PORTAFOLIO</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link" href="#">CONTÁCTANOS</a>
+               <a class="nav-link {{ $active == 'contact' ? 'active' : '' }}" href="#">CONTÁCTANOS</a>
             </li>
          </ul>
       </div>
