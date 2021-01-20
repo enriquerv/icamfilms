@@ -180,15 +180,15 @@
 	<section class="bg-ateam-div mt-5 pt-5 pb-5">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 px-0 bg-ateam bg-ateam1" data-aos="zoom-in" data-aos-duration="1000"></div>
-				<div class="col-md-4 px-0 bg-ateam bg-ateam2" data-aos="zoom-in" data-aos-duration="1000"></div>
-				<div class="col-md-4 px-0 bg-ateam bg-ateam3" data-aos="zoom-in" data-aos-duration="1000"></div>
-				<div class="col-md-6 px-0 bg-ateam bg-ateam4" data-aos="zoom-in" data-aos-duration="1000"></div>
-				<div class="col-md-6 px-0 bg-ateam bg-ateam5" data-aos="zoom-in" data-aos-duration="1000"></div>
-				<div class="col-md-3 px-0 bg-ateam bg-ateam6" data-aos="zoom-in" data-aos-duration="1000"></div>
-				<div class="col-md-3 px-0 bg-ateam bg-ateam7" data-aos="zoom-in" data-aos-duration="1000"></div>
-				<div class="col-md-3 px-0 bg-ateam bg-ateam8" data-aos="zoom-in" data-aos-duration="1000"></div>
-				<div class="col-md-3 px-0 bg-ateam bg-ateam9" data-aos="zoom-in" data-aos-duration="1000"></div>
+				<div class="col-md-4 px-0 bg-ateam bg-ateam1" data-aos="zoom-in" data-aos-duration="2000"></div>
+				<div class="col-md-4 px-0 bg-ateam bg-ateam2" data-aos="zoom-in" data-aos-duration="2000"></div>
+				<div class="col-md-4 px-0 bg-ateam bg-ateam3" data-aos="zoom-in" data-aos-duration="2000"></div>
+				<div class="col-md-6 px-0 bg-ateam bg-ateam4" data-aos="zoom-in" data-aos-duration="2000"></div>
+				<div class="col-md-6 px-0 bg-ateam bg-ateam5" data-aos="zoom-in" data-aos-duration="2000"></div>
+				<div class="col-md-3 px-0 bg-ateam bg-ateam6" data-aos="zoom-in" data-aos-duration="2000"></div>
+				<div class="col-md-3 px-0 bg-ateam bg-ateam7" data-aos="zoom-in" data-aos-duration="2000"></div>
+				<div class="col-md-3 px-0 bg-ateam bg-ateam8" data-aos="zoom-in" data-aos-duration="2000"></div>
+				<div class="col-md-3 px-0 bg-ateam bg-ateam9" data-aos="zoom-in" data-aos-duration="2000"></div>
 			</div>
 		</div>	
 	</section>
