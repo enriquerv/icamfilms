@@ -11,7 +11,7 @@
 	
 	<section class="first-section bg-aboutus vertical-center">
 		<div class="container">
-			<div class="row">
+			<div class="row" data-aos="zoom-in" data-aos-duration="1000">
 				<div class="col-md-6 offset-md-3 text-gray">
 					<h1 class="text-center">CUENTA CON NOSOTROS</h1>
 					<p class="text-wrap text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dolorem. Perspiciatis dolorum temporibus nemo aperiam adipisci repudiandae, officia at minima veniam recusandae tempore magni, commodi! Eos a est, soluta perspiciatis. Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Quod tempora rem sequi magni molestias minus optio, explicabo!</p>
