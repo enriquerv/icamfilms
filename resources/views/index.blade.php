@@ -99,7 +99,7 @@
 	</section>
 	<section class="container-fliud pt-5 pb-5 section-contact">
 		<div class="row m-0">
-			<div class="col-10 offset-1 row">
+			<div class="col-md-10 offset-md-1 row">
 				<div class="col-md-6 mt-3 text-center">
 					<img src="https://via.placeholder.com/400?text=Imagen">
 				</div>
