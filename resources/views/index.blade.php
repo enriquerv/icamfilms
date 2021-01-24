@@ -106,7 +106,7 @@
 				<div class="col-md-6 mt-3 vertical-center_2">
 					<div>
 						<p>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Debitis consequuntur nulla molestiae excepturi est voluptates quam quos magni alias? Repellendus, suscipit. Libero nulla deserunt neque suscipit natus earum distinctio excepturi.</p>	
-						<a href="{{ URL::route('aboutus') }}"><button class="btn btn-primary btn-about mt-4">Contáctanos</button></a>
+						<a href="#"><button class="btn btn-primary btn-about mt-4">Contáctanos</button></a>
 					</div>
 				</div>
 			</div>
