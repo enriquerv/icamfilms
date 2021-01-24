@@ -98,16 +98,16 @@
 		</div>
 	</section>
 	<section class="container-fliud pt-5 pb-5 section-contact">
-		<div class="row">
+		<div class="row m-0">
 			<div class="col-10 offset-1 row">
-				<div class="col-6 vertical-center_2">
+				<div class="col-md-6 mt-3 text-center">
+					<img src="https://via.placeholder.com/400?text=Imagen">
+				</div>
+				<div class="col-md-6 mt-3 vertical-center_2">
 					<div>
 						<p>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Debitis consequuntur nulla molestiae excepturi est voluptates quam quos magni alias? Repellendus, suscipit. Libero nulla deserunt neque suscipit natus earum distinctio excepturi.</p>	
 						<a href="{{ URL::route('aboutus') }}"><button class="btn btn-primary btn-about mt-4">Contáctanos</button></a>
 					</div>
-				</div>
-				<div class="col-6 text-center">
-					<img src="https://via.placeholder.com/400?text=Imagen">
 				</div>
 			</div>
 		</div>
