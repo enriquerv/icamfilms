@@ -24,7 +24,7 @@
 	<section class="bg-team pt-5 pb-5">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 text-center" data-aos="flip-left" data-aos-duration="1000">
+				<div class="col-6 col-md-4 text-center" data-aos="flip-left" data-aos-duration="1000">
 					<img src="{{ env('APP_URL') }}/assets/images/team/team1.jpeg" class="img-team">
 					<p class="mt-3 col-8 offset-2">
 						<label><strong>INTEGRANTE #1</strong></label><br>
@@ -37,7 +37,7 @@
 						<br>
 					</p>
 				</div>
-				<div class="col-md-4 text-center" data-aos="flip-left" data-aos-duration="1000">
+				<div class="col-6 col-md-4 text-center" data-aos="flip-left" data-aos-duration="1000">
 					<img src="{{ env('APP_URL') }}/assets/images/team/team2.jpeg" class="img-team">
 					<p class="mt-3 col-8 offset-2">
 						<label><strong>INTEGRANTE #2</strong></label><br>
@@ -50,7 +50,7 @@
 						<br>
 					</p>
 				</div>
-				<div class="col-md-4 text-center" data-aos="flip-left" data-aos-duration="1000">
+				<div class="col-6 col-md-4 text-center" data-aos="flip-left" data-aos-duration="1000">
 					<img src="{{ env('APP_URL') }}/assets/images/team/team3.jpeg" class="img-team">
 					<p class="mt-3 col-8 offset-2">
 						<label><strong>INTEGRANTE #3</strong></label><br>
@@ -63,7 +63,7 @@
 						<br>
 					</p>
 				</div>
-				<div class="col-md-4 text-center" data-aos="flip-left" data-aos-duration="1000">
+				<div class="col-6 col-md-4 text-center" data-aos="flip-left" data-aos-duration="1000">
 					<img src="{{ env('APP_URL') }}/assets/images/team/team4.jpeg" class="img-team">
 					<p class="mt-3 col-8 offset-2">
 						<label><strong>INTEGRANTE #4</strong></label><br>
@@ -76,7 +76,7 @@
 						<br>	
 					</p>
 				</div>
-				<div class="col-md-4 text-center" data-aos="flip-left" data-aos-duration="1000">
+				<div class="col-6 col-md-4 text-center" data-aos="flip-left" data-aos-duration="1000">
 					<img src="{{ env('APP_URL') }}/assets/images/team/team5.jpeg" class="img-team">
 					<p class="mt-3 col-8 offset-2">
 						<label><strong>INTEGRANTE #5</strong></label><br>
@@ -89,7 +89,7 @@
 						<br>	
 					</p>
 				</div>
-				<div class="col-md-4 text-center" data-aos="flip-left" data-aos-duration="1000">
+				<div class="col-6 col-md-4 text-center" data-aos="flip-left" data-aos-duration="1000">
 					<img src="{{ env('APP_URL') }}/assets/images/team/team6.jpeg" class="img-team">
 					<p class="mt-3 col-8 offset-2">
 						<label><strong>INTEGRANTE #6</strong></label><br>
@@ -140,35 +140,35 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 pb-5 mb-5 row">
-					<div class="col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
+					<div class="col-6 col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
 						<img src="{{ env('APP_URL') }}/assets/images/valores/commitment.png" class="img-valores"><br>
 						<label class="mt-2"><strong>COMPROMISO</strong></label>
 					</div>
-					<div class="col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
+					<div class="col-6 col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
 						<img src="{{ env('APP_URL') }}/assets/images/valores/creativity.png" class="img-valores"><br>
 						<label class="mt-2"><strong>CREATIVIDAD</strong></label>
 					</div>
-					<div class="col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
+					<div class="col-6 col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
 						<img src="{{ env('APP_URL') }}/assets/images/valores/growth.png" class="img-valores"><br>
 						<label class="mt-2"><strong>CRECIMIENTO</strong></label>
 					</div>
-					<div class="col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
+					<div class="col-6 col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
 						<img src="{{ env('APP_URL') }}/assets/images/valores/innovation.png" class="img-valores"><br>
 						<label class="mt-2"><strong>INNOVACIÓN</strong></label>
 					</div>
-					<div class="col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
+					<div class="col-6 col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
 						<img src="{{ env('APP_URL') }}/assets/images/valores/integrity.png" class="img-valores"><br>
 						<label class="mt-2"><strong>INTEGRIDAD</strong></label>
 					</div>
-					<div class="col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
+					<div class="col-6 col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
 						<img src="{{ env('APP_URL') }}/assets/images/valores/passion.png" class="img-valores"><br>
 						<label class="mt-2"><strong>PASIÓN</strong></label>
 					</div>	
-					<div class="col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
+					<div class="col-6 col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
 						<img src="{{ env('APP_URL') }}/assets/images/valores/commitment.png" class="img-valores"><br>
 						<label class="mt-2"><strong>COMPROMISO</strong></label>
 					</div>
-					<div class="col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
+					<div class="col-6 col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
 						<img src="{{ env('APP_URL') }}/assets/images/valores/creativity.png" class="img-valores"><br>
 						<label class="mt-2"><strong>CREATIVIDAD</strong></label>
 					</div>
