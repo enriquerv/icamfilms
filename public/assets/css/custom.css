@@ -1,12 +1,24 @@
 /*GENERAL*/
 
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.bolder{
+	font-weight: bold;
+}
+
 .first-section {
 	margin-top: 106.3px;
 }
 
 .vertical-center {
-	min-height: 100%;
 	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.vertical-center_2 {
 	display: flex;
 	align-items: center;
 }
@@ -29,6 +41,53 @@
 .bg-dark {
 	background-color: #000000!important;
 }
+
+
+/*HOME*/
+.img-banner{ height: 600px; }
+.carousel-caption{ top: 50%; transform: translateY(-50%);  bottom: initial; }
+
+.carousel-caption h1{
+	background: #35353585;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.carousel-caption p{
+	background: #35353585;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.title-about{
+	width: 150px;
+    background: #ffffff;
+    top: 0px;
+    position: absolute;
+    left: 200px;
+    z-index: 999;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.btn-about{
+	background-color: #000000;
+    border-color: #000000;
+    padding: 12px 25px;
+    font-size: 18px;
+}
+.btn-about:hover, .btn-about:active, .btn-about:focus {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: black;
+}
+
+.section-contact{
+	background: #676767;
+	color: #fff;
+}
+
 
 
 /*ABOUTUS*/

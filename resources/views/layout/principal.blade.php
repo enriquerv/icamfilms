@@ -14,6 +14,10 @@
         {{-- AOS Animate --}}
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+        {{-- Monserrat --}}
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
         {{-- Custom CSS file --}}
         <link rel="stylesheet" href="{{ env('APP_URL') }}/assets/css/custom.css">
 
