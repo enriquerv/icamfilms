@@ -64,7 +64,7 @@
 								<a href="{{ URL::route('aboutus') }}"><button class="btn btn-primary btn-about">Conoce más</button></a>
 							</p>
 						</div>
-						<div class="col-md-5 text-center">
+						<div class="col-md-5 text-center" data-aos="flip-left" data-aos-duration="1000">
 							<img src="https://via.placeholder.com/300x500?text=Imagen" width="60%">
 						</div>
 					</div>		
@@ -80,17 +80,17 @@
 			<div class="col-md-12 text-center pb-5">
 				<h2 class="bolder">NUESTROS SERVICIOS</h2>
 			</div>
-			<div class="col-md-4 text-center">
+			<div class="col-md-4 text-center" data-aos="zoom-in" data-aos-duration="1000">
 				<img src="https://via.placeholder.com/200x200?text=Imagen" class="mb-3" width="80%">
 				<h4>SERVICIO #1</h4>
 				<p class="text-start">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum iure est, amet rerum itaque officia ullam sit nesciunt, aspernatur consectetur</p>
 			</div>
-			<div class="col-md-4 text-center">
+			<div class="col-md-4 text-center" data-aos="zoom-in" data-aos-duration="1000">
 				<img src="https://via.placeholder.com/200x200?text=Imagen" class="mb-3" width="80%">
 				<h4>SERVICIO #2</h4>
 				<p class="text-start">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum iure est, amet rerum itaque officia ullam sit nesciunt, aspernatur consectetur</p>
 			</div>
-			<div class="col-md-4 text-center">
+			<div class="col-md-4 text-center" data-aos="zoom-in" data-aos-duration="1000">
 				<img src="https://via.placeholder.com/200x200?text=Imagen" class="mb-3" width="80%">
 				<h4>SERVICIO #3</h4>
 				<p class="text-start">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum iure est, amet rerum itaque officia ullam sit nesciunt, aspernatur consectetur</p>
