@@ -13,5 +13,8 @@
 
 // Route::get('/', function () { return view('welcome'); });
 
-Route::get('/', array('as' => 'index', 'uses' => 'FrontEndController@index'));
+Route::get('/', array('as' => 'video', 'uses' => 'FrontEndController@video'));
+Route::get('home', array('as' => 'home', 'uses' => 'FrontEndController@home'));
 Route::get('aboutus', array('as' => 'aboutus', 'uses' => 'FrontEndController@aboutus'));
+Route::get('services', array('as' => 'services', 'uses' => 'FrontEndController@services'));
+Route::get('portfolio', array('as' => 'portfolio', 'uses' => 'FrontEndController@portfolio'));

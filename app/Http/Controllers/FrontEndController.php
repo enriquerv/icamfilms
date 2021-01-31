@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class FrontEndController extends Controller
 {
-    public function index()
+    public function home()
     {
     	$active = 'index';
     	$title = 'INICIO';
@@ -18,5 +18,25 @@ class FrontEndController extends Controller
     	$active = 'aboutus';
     	$title = 'NOSOTROS';
     	return view('aboutus', compact('active', 'title'));
+    }
+
+    public function video()
+    {
+        $active = 'video';
+        $title = 'VIDEO';
+        return view('video', compact('active', 'title'));
+    }
+
+    public function services()
+    {
+        $active = 'services';
+        $title = 'Servicios';
+        return view('services', compact('active', 'title'));
+    }
+    public function portfolio()
+    {
+        $active = 'portfolio';
+        $title = 'Portafolio';
+        return view('portfolio', compact('active', 'title'));
     }
 }

@@ -12,9 +12,9 @@
 	<section class="first-section bg-aboutus vertical-center">
 		<div class="container">
 			<div class="row" data-aos="zoom-in" data-aos-duration="1000">
-				<div class="col-md-6 offset-md-3 text-gray">
+				<div class="col-10 offset-1 text-gray">
 					<h1 class="text-center">CUENTA CON NOSOTROS</h1>
-					<p class="text-wrap text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dolorem. Perspiciatis dolorum temporibus nemo aperiam adipisci repudiandae, officia at minima veniam recusandae tempore magni, commodi! Eos a est, soluta perspiciatis. Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Quod tempora rem sequi magni molestias minus optio, explicabo!</p>
+					<p class="text-wrap text-justify mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dolorem. Perspiciatis dolorum temporibus nemo aperiam adipisci repudiandae, officia at minima veniam recusandae tempore magni, commodi! Eos a est, soluta perspiciatis. Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Quod tempora rem sequi magni molestias minus optio, explicabo!</p>
 				</div>
 			</div>
 			
@@ -23,7 +23,7 @@
 
 	<section class="bg-team pt-5 pb-5">
 		<div class="container">
-			<div class="row">
+			<div class="row text-white">
 				<div class="col-6 col-md-4 text-center" data-aos="flip-left" data-aos-duration="1000">
 					<img src="{{ env('APP_URL') }}/assets/images/team/team1.jpeg" class="img-team">
 					<p class="mt-3 col-8 offset-2">
@@ -135,41 +135,41 @@
 		</div>
 	</section>
 
-	<section class="bg-values mt-5 pt-5">
-		<h1 class="text-center">NUESTROS VALORES</h1>
+	<section class="bg-values mt-5 pt-5 text-white">
+		<h1 class="text-center mb-4">NUESTROS VALORES</h1>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 pb-5 mb-5 row">
 					<div class="col-6 col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
-						<img src="{{ env('APP_URL') }}/assets/images/valores/commitment.png" class="img-valores"><br>
+						<i class="far fa-handshake icon-valores"></i><br>
 						<label class="mt-2"><strong>COMPROMISO</strong></label>
 					</div>
 					<div class="col-6 col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
-						<img src="{{ env('APP_URL') }}/assets/images/valores/creativity.png" class="img-valores"><br>
+						<i class="fas fa-brain icon-valores"></i><br>
 						<label class="mt-2"><strong>CREATIVIDAD</strong></label>
 					</div>
 					<div class="col-6 col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
-						<img src="{{ env('APP_URL') }}/assets/images/valores/growth.png" class="img-valores"><br>
+						<i class="fas fa-seedling icon-valores"></i><br>
 						<label class="mt-2"><strong>CRECIMIENTO</strong></label>
 					</div>
 					<div class="col-6 col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
-						<img src="{{ env('APP_URL') }}/assets/images/valores/innovation.png" class="img-valores"><br>
+						<i class="fas fa-cogs icon-valores"></i><br>
 						<label class="mt-2"><strong>INNOVACIÓN</strong></label>
 					</div>
 					<div class="col-6 col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
-						<img src="{{ env('APP_URL') }}/assets/images/valores/integrity.png" class="img-valores"><br>
+						<i class="fas fa-shield-alt icon-valores"></i><br>
 						<label class="mt-2"><strong>INTEGRIDAD</strong></label>
 					</div>
 					<div class="col-6 col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
-						<img src="{{ env('APP_URL') }}/assets/images/valores/passion.png" class="img-valores"><br>
+						<i class="far fa-heart icon-valores"></i><br>
 						<label class="mt-2"><strong>PASIÓN</strong></label>
 					</div>	
 					<div class="col-6 col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
-						<img src="{{ env('APP_URL') }}/assets/images/valores/commitment.png" class="img-valores"><br>
+						<i class="far fa-handshake icon-valores"></i><br>
 						<label class="mt-2"><strong>COMPROMISO</strong></label>
 					</div>
 					<div class="col-6 col-md-3 text-center mt-5" data-aos="flip-left" data-aos-duration="1000">
-						<img src="{{ env('APP_URL') }}/assets/images/valores/creativity.png" class="img-valores"><br>
+						<i class="fas fa-brain icon-valores"></i><br>
 						<label class="mt-2"><strong>CREATIVIDAD</strong></label>
 					</div>
 				</div>
@@ -177,7 +177,7 @@
 		</div>	
 	</section>
 
-	<section class="bg-ateam-div mt-5 pt-5 pb-5">
+	<section class="bg-ateam-div mt-2 pt-5 pb-5">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4 px-0 bg-ateam bg-ateam1" data-aos="zoom-in" data-aos-duration="2000"></div>
