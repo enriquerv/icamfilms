@@ -62,7 +62,7 @@ class FrontEndController extends Controller
         $mail->isSMTP();
 
         $mail->SMTPAuth = true;
-        $mail->SMTPDebug  = 3;
+        // $mail->SMTPDebug  = 4;
         $mail->SMTPSecure = env('MAIL_ENCRYPTION');
         $mail->Host = env('MAIL_HOST');
         $mail->Port = env('MAIL_PORT');
