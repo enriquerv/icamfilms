@@ -61,7 +61,7 @@ class FrontEndController extends Controller
         /* Cuando el proyecto se suba al servidor, descomentar la siguiente línea para que el envío de corre funcione correctamente y no llegue a SPAM */
         $mail->isSMTP();
 
-        $mail->SMTPAuth = true;
+        $mail->SMTPAuth = false;
         // $mail->SMTPDebug  = 4;
         $mail->SMTPSecure = env('MAIL_ENCRYPTION');
         $mail->Host = env('MAIL_HOST');
