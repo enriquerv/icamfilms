@@ -8,7 +8,6 @@
 
 <section>
 	<div class="main"> 
-		<h2 class="main-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit!</h2>
 	    <video class="video-background" controls muted autoplay loop>
 	      <source src="{{ env('APP_URL') }}/assets/videos/reel_empresarial.mp4" type="video/mp4">
 	      Your browser does not support the video tag.

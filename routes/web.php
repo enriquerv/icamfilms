@@ -18,3 +18,5 @@ Route::get('home', array('as' => 'home', 'uses' => 'FrontEndController@home'));
 Route::get('aboutus', array('as' => 'aboutus', 'uses' => 'FrontEndController@aboutus'));
 Route::get('services', array('as' => 'services', 'uses' => 'FrontEndController@services'));
 Route::get('portfolio', array('as' => 'portfolio', 'uses' => 'FrontEndController@portfolio'));
+Route::get('contact', array('as' => 'contact', 'uses' => 'FrontEndController@contact'));
+Route::get('postContact', array('as' => 'postContact', 'uses' => 'FrontEndController@postContact'));

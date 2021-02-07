@@ -75,27 +75,67 @@
 	<section>
 		<iframe width="100%" height="600" src="https://www.youtube.com/embed/oM1WrCJWN2k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</section>
-	<section  class="pt-5 pb-5 container">
-		<div class="row text-white">
-			<div class="col-md-12 text-center pb-5">
-				<h2 class="bolder">NUESTROS SERVICIOS</h2>
+	<section class="bg-values mt-5 pt-5 text-white">
+		<div class="container">
+			<h2 class="text-center mb-5">NUESTROS CLIENTES</h2>
+			<div id="carouselClients" class="carousel slide pt-5 mt-5 pb-5 mb-5" data-bs-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-bs-target="#carouselClients" data-bs-slide-to="0" class="active"></li>
+					<li data-bs-target="#carouselClients" data-bs-slide-to="1"></li>
+					<li data-bs-target="#carouselClients" data-bs-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="row">
+							<div class="col-3 text-center">
+								<img src="http://via.placeholder.com/200x200/ffffff?text=cliente 1" class="img-clients w-100">
+							</div>
+							<div class="col-3 text-center">
+								<img src="http://via.placeholder.com/200x200/ffffff?text=cliente 2" class="img-clients w-100">
+							</div>
+							<div class="col-3 text-center">
+								<img src="http://via.placeholder.com/200x200/ffffff?text=cliente 3" class="img-clients w-100">
+							</div>
+							<div class="col-3 text-center">
+								<img src="http://via.placeholder.com/200x200/ffffff?text=cliente 4" class="img-clients w-100">
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-3 text-center">
+								<img src="http://via.placeholder.com/200x200/ffffff?text=cliente 5" class="img-clients w-100">
+							</div>
+							<div class="col-3 text-center">
+								<img src="http://via.placeholder.com/200x200/ffffff?text=cliente 6" class="img-clients w-100">
+							</div>
+							<div class="col-3 text-center">
+								<img src="http://via.placeholder.com/200x200/ffffff?text=cliente 7" class="img-clients w-100">
+							</div>
+							<div class="col-3 text-center">
+								<img src="http://via.placeholder.com/200x200/ffffff?text=cliente 8" class="img-clients w-100">
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-3 text-center">
+								<img src="http://via.placeholder.com/200x200/ffffff?text=cliente 9" class="img-clients w-100">
+							</div>
+							<div class="col-3 text-center">
+								<img src="http://via.placeholder.com/200x200/ffffff?text=cliente 10" class="img-clients w-100">
+							</div>
+							<div class="col-3 text-center">
+								<img src="http://via.placeholder.com/200x200/ffffff?text=cliente 11" class="img-clients w-100">
+							</div>
+							<div class="col-3 text-center">
+								<img src="http://via.placeholder.com/200x200/ffffff?text=cliente 12" class="img-clients w-100">
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="col-md-4 text-center" data-aos="zoom-in" data-aos-duration="1000">
-				<img src="https://via.placeholder.com/200x200?text=Imagen" class="mb-3" width="80%">
-				<h4>Fotografía editorial</h4>
-			</div>
-			<div class="col-md-4 text-center" data-aos="zoom-in" data-aos-duration="1000">
-				<img src="https://via.placeholder.com/200x200?text=Imagen" class="mb-3" width="80%">
-				<h4>Dirección</h4>
-			</div>
-			<div class="col-md-4 text-center" data-aos="zoom-in" data-aos-duration="1000">
-				<img src="https://via.placeholder.com/200x200?text=Imagen" class="mb-3" width="80%">
-				<h4>Marketing digital</h4>
-			</div>
-			<div class="col-md-12 mt-5 text-center" data-aos="zoom-in" data-aos-duration="1000">
-				<a href="{{ URL::route('services') }}"><button class="btn btn-primary btn-about">Conoce más</button></a>
-			</div>
-		</div>
+		</div>	
 	</section>
 	<section class="container-fliud pt-5 pb-5 section-contact">
 		<div class="row m-0">
