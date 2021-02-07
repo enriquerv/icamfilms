@@ -7,6 +7,7 @@ use PHPMailer\PHPMailer\Exception;
 
 use Sentinel;
 use URL;
+use Redirect;
 
 use Illuminate\Http\Request;
 
@@ -77,8 +78,13 @@ class FrontEndController extends Controller
     public static function postContact(Request $request)
     {
         // dd($request->all());
-        $subject = 'Prueba Mail';
-        $msg = '<p>Prueba Mail</p>';
+        $subject = 'Nuevo contacto WEB';
+        $msg = '<h3>Tenémos un nuevo contacto</h3>';
+        $msg .= '<p><strong>Nombre:</strong> '.$request->name.'</p>';
+        $msg .= '<p><strong>E-mail:</strong> '.$request->email.'</p>';
+        $msg .= '<p><strong>Teléfono:</strong> '.$request->phone.'</p>';
+        $msg .= '<p><strong>Mensaje:</strong> '.$request->message.'</p>';
+        
 
         try {
             $mail = self::SMTPMail();
@@ -86,8 +92,8 @@ class FrontEndController extends Controller
             $mail->Subject = $subject;
             $mail->MsgHTML($msg);
             $mail->addAddress('erodriguez@fabricadesoluciones.com', 'Enrique Rodriguez');
-            if($mail->send()) dd("good");
-            else dd("bad");
+            $mail->send();
+            return Redirect::back()->with('success', 'Mensaje enviado, en breve nos comunicaremos contigo');
         } catch (phpmailerException $e) {
             dd($e);
         } catch (Exception $e) {
