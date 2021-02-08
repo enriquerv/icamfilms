@@ -59,5 +59,7 @@
 
         {{-- JS section for every blades --}}
         @yield('scripts')
+
+        @include('notifications')
     </body>
 </html>
